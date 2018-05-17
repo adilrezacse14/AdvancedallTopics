@@ -1,0 +1,23 @@
+{%extends 'base.html'%}
+{%block title%} Index page {%endblock%}
+
+{%block formdesign%}
+  <h1 style="color:green">TESTBOSS</h1>
+  <br>
+  <br>
+  <br>
+  <h1>ajax testing No design</h1>
+
+
+    {%csrf_token%}
+    <input type="text" name="username" id="user" placeholder="username" class="form-control">
+    <input type="text" name="password" id="pass" placeholder="password" class="form-control">
+    <input id="submitbutton" type="submit" class="btn btn-primary" type="submit" value="Log in">
+
+{%endblock%}
+
+{%block datashow%}
+  <ul id="resultshow">
+
+  </ul>
+{%endblock%}
