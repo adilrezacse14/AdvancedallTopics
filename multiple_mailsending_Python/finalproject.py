@@ -4,7 +4,7 @@ from email.mime.multipart import  MIMEMultipart
 from email.mime.text import MIMEText
 
 sendermail="xuetianhc@gmail.com"
-senderpass="2226223326sparkbrain"
+senderpass="************"
 
 def testfun():
     print("this is from testfun")
